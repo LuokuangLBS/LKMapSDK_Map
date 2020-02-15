@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CCAA898C8380A479BA253BE /* LKMapSDK_Map.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKMapSDK_Map.podspec; path = ../LKMapSDK_Map.podspec; sourceTree = "<group>"; };
-		414B0AD76D1938BAA13791E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		47E1780CCB16DF28724FE24F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1CCAA898C8380A479BA253BE /* LKMapSDK_Map.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKMapSDK_Map.podspec; path = ../LKMapSDK_Map.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		414B0AD76D1938BAA13791E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47E1780CCB16DF28724FE24F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5468703BFDCEFA607FE9B36E /* Pods-LKMapSDK_Map_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKMapSDK_Map_Example.release.xcconfig"; path = "Target Support Files/Pods-LKMapSDK_Map_Example/Pods-LKMapSDK_Map_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKMapSDK_Map_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKMapSDK_Map_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				D57AEB72E5D7E9F1DFACCB8A /* Pods-LKMapSDK_Map_Tests.debug.xcconfig */,
 				8FDA5548F947B5A04B57A83F /* Pods-LKMapSDK_Map_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

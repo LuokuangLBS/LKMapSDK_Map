@@ -8,35 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKMapSDK_Map'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LKMapSDK_Map.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = '箩筐地图iOS SDK（CocoaPods箩筐地图官方库），地图功能包'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+箩筐地图iOS SDK（CocoaPods箩筐地图官方库），地图功能包。提供地图标注、覆盖物绘制等功能。
                        DESC
 
-  s.homepage         = 'https://github.com/LuokuangLBS/LKMapSDK_Map'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://lbs.luokuang.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LuokuangLBS' => 'haofp@luokung.com' }
   s.source           = { :git => 'https://github.com/LuokuangLBS/LKMapSDK_Map.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'LKMapSDK_Map/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LKMapSDK_Map' => ['LKMapSDK_Map/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '9.0'
+  s.requires_arc = true
+  s.resources =  'LKMapSDK_Map/LKMapSDK_Map.framework/LKMapSDK_Map.bundle'
+  s.frameworks = 'UIKit', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'SystemConfiguration', 'GLKit'
+  s.vendored_frameworks = 'LKMapSDK_Map/*.{framework}'
+  s.libraries = 'libc++', 'libsqlite3', 'libz'
+  s.dependency 'LKMapSDK_Base', s.version
 end
