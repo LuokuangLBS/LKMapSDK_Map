@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.resources =  'LKMapSDK_Map/LKMapSDK_Map.framework/LKMapSDK_Map.bundle'
   s.frameworks = 'UIKit', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'SystemConfiguration', 'GLKit'
   s.vendored_frameworks = 'LKMapSDK_Map/*.{framework}'
-  s.libraries = 'libc++', 'libsqlite3', 'libz'
-  s.dependency 'LKMapSDK_Base', s.version
+  s.libraries = 'c++', 'sqlite3', 'z'
+  s.dependency 'LKMapSDK_Base', s.version.to_s
 end
