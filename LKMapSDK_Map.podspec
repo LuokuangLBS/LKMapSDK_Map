@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = '箩筐地图iOS SDK（CocoaPods箩筐地图官方库），地图功能包'
 
   s.description      = <<-DESC
-箩筐地图iOS SDK（CocoaPods箩筐地图官方库），地图功能包。提供地图标注、覆盖物绘制等功能。
+箩筐地图iOS SDK（CocoaPods箩筐地图官方库），地图功能包。提供地图操作、标注、覆盖物绘制等功能。
                        DESC
 
   s.homepage         = 'https://lbs.luokuang.com'
