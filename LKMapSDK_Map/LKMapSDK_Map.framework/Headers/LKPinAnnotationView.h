@@ -25,8 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 大头针颜色。默认LKPinColorRed
 @property (nonatomic, assign) LKPinColor pinColor;
 
-/// 是否动画。默认NO
-@property (nonatomic, assign) BOOL animatesDrop;
 @end
 
 NS_ASSUME_NONNULL_END
