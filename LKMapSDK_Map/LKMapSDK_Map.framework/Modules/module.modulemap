@@ -1,0 +1,6 @@
+framework module LKMapSDK_Map {
+  umbrella header "LKMapSDK_Map.h"
+
+  export *
+  module * { export * }
+}
